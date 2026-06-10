@@ -1,0 +1,15 @@
+The data compilation in the data/ directory (tower locations, channels,
+operators, and metadata in towers.json, coverage geometries in coverage/,
+and auxiliary files) is licensed under the Creative Commons Attribution 4.0
+International License (CC BY 4.0).
+
+You are free to share and adapt this data for any purpose, including
+commercially, provided you give appropriate credit to "Anten VN contributors"
+and indicate if changes were made.
+
+Full license text: https://creativecommons.org/licenses/by/4.0/legalcode
+
+Provenance of individual records is documented in data/SOURCES.md. Facts
+(coordinates, channel numbers) were extracted from publicly available
+sources cited per record; no copyrighted imagery from those sources is
+included in this repository.

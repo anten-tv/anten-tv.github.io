@@ -1,0 +1,86 @@
+name: Validate data PR
+
+# pull_request_target (not pull_request) so the bot can comment on fork PRs —
+# the typical contributor. SECURITY: with this trigger the workflow runs with
+# write token, so we must never execute code from the PR head. We check out
+# the BASE branch (trusted scripts + workflow), then overlay ONLY the PR's
+# data/*.json files (pure data, never executed) before running the validator.
+on:
+  pull_request_target:
+    paths:
+      - 'data/**'
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4 # base branch — trusted code
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Overlay PR data files (JSON only, never executed)
+        run: |
+          git fetch origin "pull/${{ github.event.pull_request.number }}/head:prhead"
+          git checkout prhead -- data/
+      - name: Validate towers.json
+        id: validate
+        run: |
+          set +e
+          OUTPUT=$(node scripts/validate-data.mjs 2>&1)
+          CODE=$?
+          echo "$OUTPUT"
+          DELIM="EOF_$(openssl rand -hex 16)"
+          {
+            echo "result<<$DELIM"
+            echo "$OUTPUT"
+            echo "$DELIM"
+          } >> "$GITHUB_OUTPUT"
+          exit $CODE
+      - name: Comment on PR (failure)
+        if: failure()
+        uses: actions/github-script@v7
+        env:
+          # PR-controlled text must reach the script via env, NEVER via
+          # ${{ }} interpolation into the JS source (script injection)
+          VALIDATOR_OUTPUT: ${{ steps.validate.outputs.result }}
+        with:
+          script: |
+            const output = process.env.VALIDATOR_OUTPUT ?? '(không có output)';
+            const contributing = `${context.payload.repository.html_url}/blob/main/CONTRIBUTING.md`;
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: [
+                '## ❌ Dữ liệu chưa hợp lệ',
+                '',
+                'Cảm ơn bạn đã đóng góp! Trình kiểm tra phát hiện một số lỗi cần sửa:',
+                '',
+                '```',
+                output.replaceAll('```', "''" + "'"),
+                '```',
+                '',
+                `Xem hướng dẫn chi tiết tại [CONTRIBUTING.md](${contributing}).`,
+                'Sửa trực tiếp trên file trong PR này rồi commit lại — bot sẽ kiểm tra lại tự động.',
+              ].join('\n'),
+            });
+      - name: Comment on PR (success)
+        if: success()
+        uses: actions/github-script@v7
+        env:
+          VALIDATOR_OUTPUT: ${{ steps.validate.outputs.result }}
+        with:
+          script: |
+            const output = (process.env.VALIDATOR_OUTPUT ?? '').replaceAll('```', "''" + "'");
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: `## ✅ Dữ liệu hợp lệ\n\n\`\`\`\n${output}\n\`\`\`\n\nNgười duy trì sẽ kiểm tra nguồn trích dẫn rồi merge. Sau khi merge, dữ liệu lên app trong vài phút — không cần deploy lại.`,
+            });

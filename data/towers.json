@@ -1,0 +1,1180 @@
+{
+  "version": 1,
+  "updated": "2026-06-10",
+  "towers": [
+    {
+      "id": "an-giang-long-xuyen",
+      "name": "Đài Phát Thanh TH An Giang",
+      "lat": 10.350602,
+      "lon": 105.461372,
+      "province": "an-giang",
+      "addressOld": "Số 45/1, Trần Hưng Đạo, Phường Bình Khánh, Thành phố Long Xuyên, Tỉnh An Giang",
+      "muxes": [
+        {
+          "channel": 33,
+          "operator": "SDTV",
+          "status": "active"
+        },
+        {
+          "channel": 34,
+          "operator": "SDTV",
+          "status": "active"
+        }
+      ],
+      "polarization": null,
+      "heightM": 90,
+      "erpKw": null,
+      "status": "active",
+      "source": "sdtv.vn 16TramPhatSongK3320230920.kmz",
+      "sourceUrl": "https://sdtv.vn/ban-do-phu-song/",
+      "sourceDate": "2023-09-20",
+      "verified": false,
+      "notes": null
+    },
+    {
+      "id": "ba-ria-vung-tau",
+      "name": "Đài Phát Thanh TH Bà Rịa Vũng Tàu",
+      "lat": 10.49021111111111,
+      "lon": 107.1843,
+      "province": "tp-ho-chi-minh",
+      "addressOld": "564 Cách Mạng Tháng Tám, Phước Trung, Tp. Bà Rịa",
+      "muxes": [
+        {
+          "channel": 33,
+          "operator": "SDTV",
+          "status": "active"
+        },
+        {
+          "channel": 34,
+          "operator": "SDTV",
+          "status": "active"
+        }
+      ],
+      "polarization": null,
+      "heightM": 125,
+      "erpKw": null,
+      "status": "active",
+      "source": "sdtv.vn 16TramPhatSongK3320230920.kmz",
+      "sourceUrl": "https://sdtv.vn/ban-do-phu-song/",
+      "sourceDate": "2023-09-20",
+      "verified": false,
+      "notes": null
+    },
+    {
+      "id": "bac-giang-tan-my",
+      "name": "Trạm Phát Sóng Bắc Giang",
+      "lat": 21.26160700000003,
+      "lon": 106.165532,
+      "province": "bac-ninh",
+      "addressOld": "Đài Phát Thanh Và Truyền Hình Bắc Giang. Tòa soạn: Đường Võ Nguyên Giáp, xã Tân Mỹ, TP Bắc Giang, tỉnh Bắc Giang.",
+      "muxes": [
+        {
+          "channel": 30,
+          "operator": "VTV",
+          "status": "active"
+        }
+      ],
+      "polarization": null,
+      "heightM": 150,
+      "erpKw": null,
+      "status": "active",
+      "source": "github.com/phuongnamthvl/giaGA k30.kmz",
+      "sourceUrl": "https://github.com/phuongnamthvl/giaGA",
+      "sourceDate": null,
+      "verified": false,
+      "notes": null
+    },
+    {
+      "id": "bac-lieu-dai-ptth",
+      "name": "Đài Phát Thanh TH Bạc Liêu",
+      "lat": 9.298480555555555,
+      "lon": 105.6908,
+      "province": "ca-mau",
+      "addressOld": "Số 410, đường 23 Tháng 8, phường 8, TP Bạc Liêu, Bạc Liêu",
+      "muxes": [
+        {
+          "channel": 33,
+          "operator": "SDTV",
+          "status": "active"
+        },
+        {
+          "channel": 34,
+          "operator": "SDTV",
+          "status": "active"
+        }
+      ],
+      "polarization": null,
+      "heightM": 120,
+      "erpKw": null,
+      "status": "active",
+      "source": "sdtv.vn 16TramPhatSongK3320230920.kmz",
+      "sourceUrl": "https://sdtv.vn/ban-do-phu-song/",
+      "sourceDate": "2023-09-20",
+      "verified": false,
+      "notes": null
+    },
+    {
+      "id": "ben-tre-dai-ptth",
+      "name": "Đài PTTH Bến Tre",
+      "lat": 10.240682,
+      "lon": 106.377645,
+      "province": "vinh-long",
+      "addressOld": "Số 1/3, đường Trần Quốc Tuấn, phường 4, Tp.Bến Tre",
+      "muxes": [
+        {
+          "channel": 34,
+          "operator": "SDTV",
+          "status": "active"
+        }
+      ],
+      "polarization": null,
+      "heightM": 125,
+      "erpKw": null,
+      "status": "active",
+      "source": "sdtv.vn 19TramPhatSongK3420211202.kmz",
+      "sourceUrl": "https://sdtv.vn/ban-do-phu-song/",
+      "sourceDate": "2021-12-02",
+      "verified": false,
+      "notes": null
+    },
+    {
+      "id": "binh-dinh-vung-chua",
+      "name": "Trạm Phát Sóng Vũng Chua",
+      "lat": 13.74661,
+      "lon": 109.19218,
+      "province": "gia-lai",
+      "addressOld": "Ghềnh Ráng, TP Quy Nhơn, Bình Định",
+      "muxes": [
+        {
+          "channel": 36,
+          "operator": "SDTV",
+          "status": "active"
+        }
+      ],
+      "polarization": null,
+      "heightM": 76,
+      "erpKw": null,
+      "status": "active",
+      "source": "sdtv.vn 06TramPhatSongK3620211130fix.kmz",
+      "sourceUrl": "https://sdtv.vn/ban-do-phu-song/",
+      "sourceDate": "2021-11-30",
+      "verified": false,
+      "notes": null
+    },
+    {
+      "id": "binh-duong-an-thanh",
+      "name": "Đài Phát Sóng An Thạnh",
+      "lat": 10.9457287,
+      "lon": 106.6898281,
+      "province": "tp-ho-chi-minh",
+      "addressOld": "Đài phát sóng, xã An Thạnh, huyện Thuận An, Bình Dương",
+      "muxes": [
+        {
+          "channel": 25,
+          "operator": "VTV",
+          "status": "active"
+        }
+      ],
+      "polarization": null,
+      "heightM": 180,
+      "erpKw": null,
+      "status": "active",
+      "source": "lapdattruyenhinhkts.com tần số và trạm phát DVB-T2",
+      "sourceUrl": "https://lapdattruyenhinhkts.com/tan-so-va-tram-phat-dvb-t2.html",
+      "sourceDate": null,
+      "verified": false,
+      "notes": "Công suất 5 kW theo nguồn. Tọa độ xấp xỉ trung tâm phường An Thạnh, chưa xác minh vị trí trạm."
+    },
+    {
+      "id": "binh-duong-thu-dau-mot",
+      "name": "Đài Phát Thanh TH Bình Dương",
+      "lat": 10.97299699999999,
+      "lon": 106.673364,
+      "province": "tp-ho-chi-minh",
+      "addressOld": "46 Đại lộ Bình Dương, Phú Thọ, Tp. Thủ Dầu Một, Bình Dương",
+      "muxes": [
+        {
+          "channel": 33,
+          "operator": "SDTV",
+          "status": "active"
+        },
+        {
+          "channel": 34,
+          "operator": "SDTV",
+          "status": "active"
+        }
+      ],
+      "polarization": null,
+      "heightM": 250,
+      "erpKw": null,
+      "status": "active",
+      "source": "sdtv.vn 16TramPhatSongK3320230920.kmz",
+      "sourceUrl": "https://sdtv.vn/ban-do-phu-song/",
+      "sourceDate": "2023-09-20",
+      "verified": false,
+      "notes": null
+    },
+    {
+      "id": "binh-phuoc-dong-xoai",
+      "name": "Đài Phát Thanh TH Bình Phước",
+      "lat": 11.538104,
+      "lon": 106.888,
+      "province": "dong-nai",
+      "addressOld": "1 Trần Hưng Đạo, Tân Phú, Tx. Đồng Xoài, Bình Phước",
+      "muxes": [
+        {
+          "channel": 33,
+          "operator": "SDTV",
+          "status": "active"
+        },
+        {
+          "channel": 34,
+          "operator": "SDTV",
+          "status": "active"
+        }
+      ],
+      "polarization": null,
+      "heightM": 113,
+      "erpKw": null,
+      "status": "active",
+      "source": "sdtv.vn 16TramPhatSongK3320230920.kmz",
+      "sourceUrl": "https://sdtv.vn/ban-do-phu-song/",
+      "sourceDate": "2023-09-20",
+      "verified": false,
+      "notes": null
+    },
+    {
+      "id": "binh-thuan-phan-thiet",
+      "name": "Đài Phát Thanh TH Bình Thuận",
+      "lat": 10.933824,
+      "lon": 108.115383,
+      "province": "lam-dong",
+      "addressOld": "339-341 Thủ Khoa Huân, Phú Thủy, Tp. Phan Thiết",
+      "muxes": [
+        {
+          "channel": 33,
+          "operator": "SDTV",
+          "status": "active"
+        }
+      ],
+      "polarization": null,
+      "heightM": 130,
+      "erpKw": null,
+      "status": "active",
+      "source": "sdtv.vn 16TramPhatSongK3320230920.kmz",
+      "sourceUrl": "https://sdtv.vn/ban-do-phu-song/",
+      "sourceDate": "2023-09-20",
+      "verified": false,
+      "notes": null
+    },
+    {
+      "id": "ca-mau-ly-van-lam",
+      "name": "Trung Tâm Viễn Thông TP. Cà Mau",
+      "lat": 9.136680555555555,
+      "lon": 105.1293833333333,
+      "province": "ca-mau",
+      "addressOld": "Ấp Bà Điều,Lý Văn Lâm, TP. Cà Mau, Cà Mau",
+      "muxes": [
+        {
+          "channel": 33,
+          "operator": "SDTV",
+          "status": "active"
+        },
+        {
+          "channel": 34,
+          "operator": "SDTV",
+          "status": "active"
+        }
+      ],
+      "polarization": null,
+      "heightM": 130,
+      "erpKw": null,
+      "status": "active",
+      "source": "sdtv.vn 16TramPhatSongK3320230920.kmz",
+      "sourceUrl": "https://sdtv.vn/ban-do-phu-song/",
+      "sourceDate": "2023-09-20",
+      "verified": false,
+      "notes": null
+    },
+    {
+      "id": "can-tho-ninh-kieu",
+      "name": "Đài Phát Thanh TH Cần Thơ",
+      "lat": 10.018003,
+      "lon": 105.768395,
+      "province": "can-tho",
+      "addressOld": "409 30 Tháng 4, Hưng Lợi, Ninh Kiều, Cần Thơ",
+      "muxes": [
+        {
+          "channel": 33,
+          "operator": "SDTV",
+          "status": "active"
+        },
+        {
+          "channel": 34,
+          "operator": "SDTV",
+          "status": "active"
+        }
+      ],
+      "polarization": null,
+      "heightM": 130,
+      "erpKw": null,
+      "status": "active",
+      "source": "sdtv.vn 16TramPhatSongK3320230920.kmz",
+      "sourceUrl": "https://sdtv.vn/ban-do-phu-song/",
+      "sourceDate": "2023-09-20",
+      "verified": false,
+      "notes": null
+    },
+    {
+      "id": "can-tho-vtv",
+      "name": "Trung Tâm THVN Tại Cần Thơ (VTV Cần Thơ)",
+      "lat": 10.018329,
+      "lon": 105.767745,
+      "province": "can-tho",
+      "addressOld": "215, đường 30/4, thành phố Cần Thơ",
+      "muxes": [
+        {
+          "channel": 45,
+          "operator": "VTV",
+          "status": "active"
+        }
+      ],
+      "polarization": null,
+      "heightM": 98,
+      "erpKw": null,
+      "status": "active",
+      "source": "lapdattruyenhinhkts.com tần số và trạm phát DVB-T2",
+      "sourceUrl": "https://lapdattruyenhinhkts.com/tan-so-va-tram-phat-dvb-t2.html",
+      "sourceDate": null,
+      "verified": false,
+      "notes": "Công suất 2 kW theo nguồn. Tọa độ theo OSM 'Trung tâm truyền hình Việt Nam', cùng khu vực Đài PTTH Cần Thơ."
+    },
+    {
+      "id": "da-nang-dai-ptth",
+      "name": "Đài PTTH Đà Nẵng",
+      "lat": 16.115412,
+      "lon": 108.250212,
+      "province": "da-nang",
+      "addressOld": "Thọ Quang, Sơn Trà, Đà Nẵng",
+      "muxes": [
+        {
+          "channel": 36,
+          "operator": "SDTV",
+          "status": "active"
+        }
+      ],
+      "polarization": null,
+      "heightM": 50,
+      "erpKw": null,
+      "status": "active",
+      "source": "sdtv.vn 06TramPhatSongK3620211130fix.kmz",
+      "sourceUrl": "https://sdtv.vn/ban-do-phu-song/",
+      "sourceDate": "2021-11-30",
+      "verified": false,
+      "notes": null
+    },
+    {
+      "id": "da-nang-son-tra",
+      "name": "Trạm Phát Sóng Đà Nẵng",
+      "lat": 16.11826400000007,
+      "lon": 108.2737750000001,
+      "province": "da-nang",
+      "addressOld": "Bán đảo Sơn Trà, quận Sơn Trà, Đà Nẵng",
+      "muxes": [
+        {
+          "channel": 30,
+          "operator": "VTV",
+          "status": "active"
+        }
+      ],
+      "polarization": null,
+      "heightM": 50,
+      "erpKw": null,
+      "status": "active",
+      "source": "github.com/phuongnamthvl/giaGA k30.kmz",
+      "sourceUrl": "https://github.com/phuongnamthvl/giaGA",
+      "sourceDate": null,
+      "verified": false,
+      "notes": "Nguồn lapdattruyenhinhkts.com ghi thêm VTV K49 (2 kW) tại điểm cao 620 Sơn Trà; K49 thuộc băng 700MHz đã giải phóng, không còn phát."
+    },
+    {
+      "id": "dak-lak-deo-ha-lan",
+      "name": "Trạm phát sóng Đèo Hà Lan",
+      "lat": 12.81471388888889,
+      "lon": 108.2432583333333,
+      "province": "dak-lak",
+      "addressOld": "Trạm Viễn Thông Hà Lan, xã Bình Tân, Thị Xã Buôn Hồ, Đắc Lắc",
+      "muxes": [
+        {
+          "channel": 36,
+          "operator": "SDTV",
+          "status": "active"
+        }
+      ],
+      "polarization": null,
+      "heightM": 57,
+      "erpKw": null,
+      "status": "active",
+      "source": "sdtv.vn 06TramPhatSongK3620211130fix.kmz",
+      "sourceUrl": "https://sdtv.vn/ban-do-phu-song/",
+      "sourceDate": "2021-11-30",
+      "verified": false,
+      "notes": null
+    },
+    {
+      "id": "dong-nai-cam-my",
+      "name": "Đài Phát Thanh Cẩm Mỹ, Đồng Nai",
+      "lat": 10.81471666666667,
+      "lon": 107.2161722222222,
+      "province": "dong-nai",
+      "addressOld": "TTHC Cẩm Mỹ, Ấp Suối Cả, Xã Long Giao, Huyện Cẩm Mỹ, Tỉnh Đồng Nai",
+      "muxes": [
+        {
+          "channel": 33,
+          "operator": "SDTV",
+          "status": "active"
+        },
+        {
+          "channel": 34,
+          "operator": "SDTV",
+          "status": "active"
+        }
+      ],
+      "polarization": null,
+      "heightM": 75,
+      "erpKw": null,
+      "status": "active",
+      "source": "sdtv.vn 16TramPhatSongK3320230920.kmz",
+      "sourceUrl": "https://sdtv.vn/ban-do-phu-song/",
+      "sourceDate": "2023-09-20",
+      "verified": false,
+      "notes": null
+    },
+    {
+      "id": "dong-thap-cao-lanh",
+      "name": "Đài Phát Thanh TH Đồng Tháp",
+      "lat": 10.46603611111111,
+      "lon": 105.6315833333333,
+      "province": "dong-thap",
+      "addressOld": "16 Trần Phú, Phường 1, Tp. Cao Lãnh, Đồng Tháp",
+      "muxes": [
+        {
+          "channel": 33,
+          "operator": "SDTV",
+          "status": "active"
+        },
+        {
+          "channel": 34,
+          "operator": "SDTV",
+          "status": "active"
+        }
+      ],
+      "polarization": null,
+      "heightM": 130,
+      "erpKw": null,
+      "status": "active",
+      "source": "sdtv.vn 16TramPhatSongK3320230920.kmz",
+      "sourceUrl": "https://sdtv.vn/ban-do-phu-song/",
+      "sourceDate": "2023-09-20",
+      "verified": false,
+      "notes": null
+    },
+    {
+      "id": "ha-noi-me-tri",
+      "name": "Trạm Phát Sóng Mễ Trì",
+      "lat": 21.00224600000007,
+      "lon": 105.763761,
+      "province": "ha-noi",
+      "addressOld": "Xa Đôi, Mễ Trì, Nam Từ Liêm, Hà Nội, Việt Nam",
+      "muxes": [
+        {
+          "channel": 30,
+          "operator": "VTV",
+          "status": "active"
+        }
+      ],
+      "polarization": null,
+      "heightM": 130,
+      "erpKw": null,
+      "status": "active",
+      "source": "github.com/phuongnamthvl/giaGA k30.kmz",
+      "sourceUrl": "https://github.com/phuongnamthvl/giaGA",
+      "sourceDate": null,
+      "verified": false,
+      "notes": null
+    },
+    {
+      "id": "ha-noi-van-ho",
+      "name": "Trạm Phát Sóng Vân Hồ",
+      "lat": 21.00907300000006,
+      "lon": 105.8465570000001,
+      "province": "ha-noi",
+      "addressOld": "Số nhà 55A - Vân Hồ 3, P. Lê Đại Hành, Q. Hai Bà Trưng, Hà Nội",
+      "muxes": [
+        {
+          "channel": 30,
+          "operator": "VTV",
+          "status": "active"
+        }
+      ],
+      "polarization": null,
+      "heightM": 170,
+      "erpKw": null,
+      "status": "active",
+      "source": "github.com/phuongnamthvl/giaGA k30.kmz",
+      "sourceUrl": "https://github.com/phuongnamthvl/giaGA",
+      "sourceDate": null,
+      "verified": false,
+      "notes": null
+    },
+    {
+      "id": "ha-tinh-ky-anh",
+      "name": "Trạm Phát Sóng Kỳ Anh",
+      "lat": 18.06395300000003,
+      "lon": 106.2994140000001,
+      "province": "ha-tinh",
+      "addressOld": "Đài TTTH Thị xã Kỳ Anh, huyện Kỳ Anh, Hà Tĩnh",
+      "muxes": [
+        {
+          "channel": 30,
+          "operator": "VTV",
+          "status": "active"
+        }
+      ],
+      "polarization": null,
+      "heightM": 40,
+      "erpKw": null,
+      "status": "active",
+      "source": "github.com/phuongnamthvl/giaGA k30.kmz",
+      "sourceUrl": "https://github.com/phuongnamthvl/giaGA",
+      "sourceDate": null,
+      "verified": false,
+      "notes": null
+    },
+    {
+      "id": "ha-tinh-thien-tuong",
+      "name": "Trạm Phát Sóng Thiên Tượng",
+      "lat": 18.55849800000004,
+      "lon": 105.7040740000001,
+      "province": "ha-tinh",
+      "addressOld": "Núi Thiên Tượng, Đắc Thuận, thị xã Hồng Lĩnh, Hà Tĩnh.",
+      "muxes": [
+        {
+          "channel": 29,
+          "operator": "VTV",
+          "status": "active"
+        }
+      ],
+      "polarization": null,
+      "heightM": 80,
+      "erpKw": null,
+      "status": "active",
+      "source": "github.com/phuongnamthvl/giaGA k30.kmz",
+      "sourceUrl": "https://github.com/phuongnamthvl/giaGA",
+      "sourceDate": null,
+      "verified": false,
+      "notes": null
+    },
+    {
+      "id": "hai-phong-nguyen-binh",
+      "name": "Trạm Phát Sóng Hải Phòng",
+      "lat": 20.85108700000006,
+      "lon": 106.6790920000001,
+      "province": "hai-phong",
+      "addressOld": "Đài PTTH Hải Phòng, số 2, Nguyễn Bình, Kênh Dương, Lê Chân, Hải Phòng",
+      "muxes": [
+        {
+          "channel": 30,
+          "operator": "VTV",
+          "status": "active"
+        }
+      ],
+      "polarization": null,
+      "heightM": 130,
+      "erpKw": null,
+      "status": "active",
+      "source": "github.com/phuongnamthvl/giaGA k30.kmz",
+      "sourceUrl": "https://github.com/phuongnamthvl/giaGA",
+      "sourceDate": null,
+      "verified": false,
+      "notes": null
+    },
+    {
+      "id": "hai-phong-thien-van",
+      "name": "Trạm Phát Sóng Đồi Thiên Văn",
+      "lat": 20.805794,
+      "lon": 106.629969,
+      "province": "hai-phong",
+      "addressOld": "Đồi Thiên Văn, Kiến An, Hải Phòng",
+      "muxes": [
+        {
+          "channel": 43,
+          "operator": "VTV",
+          "status": "active"
+        }
+      ],
+      "polarization": null,
+      "heightM": 45,
+      "erpKw": null,
+      "status": "active",
+      "source": "lapdattruyenhinhkts.com tần số và trạm phát DVB-T2",
+      "sourceUrl": "https://lapdattruyenhinhkts.com/tan-so-va-tram-phat-dvb-t2.html",
+      "sourceDate": null,
+      "verified": false,
+      "notes": "Công suất 2 kW theo nguồn. Tọa độ theo OSM Trạm khí tượng Phù Liễn, Đồi Thiên Văn."
+    },
+    {
+      "id": "hau-giang-vi-thanh",
+      "name": "Đài PTTH Hậu Giang",
+      "lat": 9.800916666666668,
+      "lon": 105.4969555555556,
+      "province": "can-tho",
+      "addressOld": "Số 1, Võ Văn Kiệt, Phường 5, TP Vị Thanh, Hậu Giang",
+      "muxes": [
+        {
+          "channel": 34,
+          "operator": "SDTV",
+          "status": "active"
+        }
+      ],
+      "polarization": null,
+      "heightM": 150,
+      "erpKw": null,
+      "status": "active",
+      "source": "sdtv.vn 19TramPhatSongK3420211202.kmz",
+      "sourceUrl": "https://sdtv.vn/ban-do-phu-song/",
+      "sourceDate": "2021-12-02",
+      "verified": false,
+      "notes": null
+    },
+    {
+      "id": "hue-hung-vuong",
+      "name": "Trạm Phát Sóng Huế",
+      "lat": 16.46151200000003,
+      "lon": 107.5969030000001,
+      "province": "hue",
+      "addressOld": "Số nhà 58, đường Hùng Vương, TP. Huế, Thừa Thiên Huế",
+      "muxes": [
+        {
+          "channel": 30,
+          "operator": "VTV",
+          "status": "active"
+        }
+      ],
+      "polarization": null,
+      "heightM": 125,
+      "erpKw": null,
+      "status": "active",
+      "source": "github.com/phuongnamthvl/giaGA k30.kmz",
+      "sourceUrl": "https://github.com/phuongnamthvl/giaGA",
+      "sourceDate": null,
+      "verified": false,
+      "notes": null
+    },
+    {
+      "id": "khanh-hoa-nha-trang",
+      "name": "Đài PTTH Khánh Hòa",
+      "lat": 12.25663888888889,
+      "lon": 109.1624638888889,
+      "province": "khanh-hoa",
+      "addressOld": "số 70 Trần Phú, Tp.Nha Trang, tỉnh Khánh Hòa",
+      "muxes": [
+        {
+          "channel": 36,
+          "operator": "SDTV",
+          "status": "active"
+        }
+      ],
+      "polarization": null,
+      "heightM": 250,
+      "erpKw": null,
+      "status": "active",
+      "source": "sdtv.vn 06TramPhatSongK3620211130fix.kmz",
+      "sourceUrl": "https://sdtv.vn/ban-do-phu-song/",
+      "sourceDate": "2021-11-30",
+      "verified": false,
+      "notes": null
+    },
+    {
+      "id": "kien-giang-hon-me",
+      "name": "Trung Tâm Phát Sóng Hòn Me",
+      "lat": 10.113311,
+      "lon": 104.888078,
+      "province": "an-giang",
+      "addressOld": "Hòn Me, Hòn Đất, Kiên Giang",
+      "muxes": [
+        {
+          "channel": 33,
+          "operator": "SDTV",
+          "status": "active"
+        },
+        {
+          "channel": 34,
+          "operator": "SDTV",
+          "status": "active"
+        }
+      ],
+      "polarization": null,
+      "heightM": 98,
+      "erpKw": null,
+      "status": "active",
+      "source": "sdtv.vn 16TramPhatSongK3320230920.kmz",
+      "sourceUrl": "https://sdtv.vn/ban-do-phu-song/",
+      "sourceDate": "2023-09-20",
+      "verified": false,
+      "notes": null
+    },
+    {
+      "id": "lam-dong-da-lat",
+      "name": "Đài PTTH Lâm Đồng",
+      "lat": 11.93483,
+      "lon": 108.44639,
+      "province": "lam-dong",
+      "addressOld": "Số 10, Trần Hưng Đạo, TP Đà Lạt, LÂm Đồng",
+      "muxes": [
+        {
+          "channel": 36,
+          "operator": "SDTV",
+          "status": "active"
+        }
+      ],
+      "polarization": null,
+      "heightM": 100,
+      "erpKw": null,
+      "status": "active",
+      "source": "sdtv.vn 06TramPhatSongK3620211130fix.kmz",
+      "sourceUrl": "https://sdtv.vn/ban-do-phu-song/",
+      "sourceDate": "2021-11-30",
+      "verified": false,
+      "notes": null
+    },
+    {
+      "id": "long-an-tan-an",
+      "name": "Đài Phát Thanh TH Long An",
+      "lat": 10.53654627984259,
+      "lon": 106.404547223286,
+      "province": "tay-ninh",
+      "addressOld": "125 QL1A, Phường 4, Tp. Tân An, Long An",
+      "muxes": [
+        {
+          "channel": 33,
+          "operator": "SDTV",
+          "status": "active"
+        },
+        {
+          "channel": 34,
+          "operator": "SDTV",
+          "status": "active"
+        }
+      ],
+      "polarization": null,
+      "heightM": 120,
+      "erpKw": null,
+      "status": "active",
+      "source": "sdtv.vn 16TramPhatSongK3320230920.kmz",
+      "sourceUrl": "https://sdtv.vn/ban-do-phu-song/",
+      "sourceDate": "2023-09-20",
+      "verified": false,
+      "notes": null
+    },
+    {
+      "id": "ninh-binh-vtn",
+      "name": "Trạm Phát Sóng Ninh Bình",
+      "lat": 20.26355500000005,
+      "lon": 105.96889,
+      "province": "ninh-binh",
+      "addressOld": "Trạm truyền dẫn VTN Ninh Bình, số 1, Trần Hưng Đạo, Tp Ninh Bình, Ninh Bình",
+      "muxes": [
+        {
+          "channel": 30,
+          "operator": "VTV",
+          "status": "active"
+        }
+      ],
+      "polarization": null,
+      "heightM": 80,
+      "erpKw": null,
+      "status": "active",
+      "source": "github.com/phuongnamthvl/giaGA k30.kmz",
+      "sourceUrl": "https://github.com/phuongnamthvl/giaGA",
+      "sourceDate": null,
+      "verified": false,
+      "notes": null
+    },
+    {
+      "id": "quang-binh-dong-hoi",
+      "name": "Trạm Phát Sóng Quảng Bình",
+      "lat": 17.46515800000003,
+      "lon": 106.6232390000001,
+      "province": "quang-tri",
+      "addressOld": "Đài PTTH Quảng Bình, số nhà 54, đường Quang Trung, thành phố Đồng Hới, Quảng Bình",
+      "muxes": [
+        {
+          "channel": 30,
+          "operator": "VTV",
+          "status": "active"
+        }
+      ],
+      "polarization": null,
+      "heightM": 90,
+      "erpKw": null,
+      "status": "active",
+      "source": "github.com/phuongnamthvl/giaGA k30.kmz",
+      "sourceUrl": "https://github.com/phuongnamthvl/giaGA",
+      "sourceDate": null,
+      "verified": false,
+      "notes": null
+    },
+    {
+      "id": "quang-nam-doi-an-ha",
+      "name": "Trạm phát sóng Đồi An Hà",
+      "lat": 15.59098330051927,
+      "lon": 108.4785700551507,
+      "province": "da-nang",
+      "addressOld": "Nguyễn Văn Trỗi, phường An Phú, TP Tam Kỳ, Quảng Nam",
+      "muxes": [
+        {
+          "channel": 36,
+          "operator": "SDTV",
+          "status": "active"
+        }
+      ],
+      "polarization": null,
+      "heightM": 120,
+      "erpKw": null,
+      "status": "active",
+      "source": "sdtv.vn 06TramPhatSongK3620211130fix.kmz",
+      "sourceUrl": "https://sdtv.vn/ban-do-phu-song/",
+      "sourceDate": "2021-11-30",
+      "verified": false,
+      "notes": null
+    },
+    {
+      "id": "quang-ninh-ha-long",
+      "name": "Trạm Phát Sóng Quảng Ninh",
+      "lat": 20.95575000000002,
+      "lon": 107.0980830000001,
+      "province": "quang-ninh",
+      "addressOld": "Đài PTTH Quảng Ninh, đồi phát sóng Cọc 5, thành phố Hạ Long, Quảng Ninh",
+      "muxes": [
+        {
+          "channel": 30,
+          "operator": "VTV",
+          "status": "active"
+        }
+      ],
+      "polarization": null,
+      "heightM": 70,
+      "erpKw": null,
+      "status": "active",
+      "source": "github.com/phuongnamthvl/giaGA k30.kmz",
+      "sourceUrl": "https://github.com/phuongnamthvl/giaGA",
+      "sourceDate": null,
+      "verified": false,
+      "notes": null
+    },
+    {
+      "id": "quang-tri-vtn",
+      "name": "Trạm Phát Sóng Quảng Trị",
+      "lat": 16.82132300000006,
+      "lon": 107.0962370000001,
+      "province": "quang-tri",
+      "addressOld": "Trạm truyền dẫn VTN Quảng Trị, số 18, Trần Hưng Đạo, thành phố Đông Hà, Quảng Trị",
+      "muxes": [
+        {
+          "channel": 29,
+          "operator": "VTV",
+          "status": "active"
+        }
+      ],
+      "polarization": null,
+      "heightM": 80,
+      "erpKw": null,
+      "status": "active",
+      "source": "github.com/phuongnamthvl/giaGA k30.kmz",
+      "sourceUrl": "https://github.com/phuongnamthvl/giaGA",
+      "sourceDate": null,
+      "verified": false,
+      "notes": null
+    },
+    {
+      "id": "soc-trang-dai-ptth",
+      "name": "Đài Phát Thanh TH Sóc Trăng",
+      "lat": 9.590071,
+      "lon": 105.976556,
+      "province": "can-tho",
+      "addressOld": "132 Trần Văn Bảy, Phường 3, Tp. Sóc Trăng, Sóc Trăng",
+      "muxes": [
+        {
+          "channel": 33,
+          "operator": "SDTV",
+          "status": "active"
+        },
+        {
+          "channel": 34,
+          "operator": "SDTV",
+          "status": "active"
+        }
+      ],
+      "polarization": null,
+      "heightM": 125,
+      "erpKw": null,
+      "status": "active",
+      "source": "sdtv.vn 16TramPhatSongK3320230920.kmz",
+      "sourceUrl": "https://sdtv.vn/ban-do-phu-song/",
+      "sourceDate": "2023-09-20",
+      "verified": false,
+      "notes": null
+    },
+    {
+      "id": "tay-ninh-tp",
+      "name": "Đài Phát Thanh TH Tây Ninh",
+      "lat": 11.314053,
+      "lon": 106.098094,
+      "province": "tay-ninh",
+      "addressOld": "22 Đường 30/4, Phường 3, thành phố Tây Ninh, tỉnh Tây Ninh",
+      "muxes": [
+        {
+          "channel": 33,
+          "operator": "SDTV",
+          "status": "active"
+        },
+        {
+          "channel": 34,
+          "operator": "SDTV",
+          "status": "active"
+        }
+      ],
+      "polarization": null,
+      "heightM": 94,
+      "erpKw": null,
+      "status": "active",
+      "source": "sdtv.vn 16TramPhatSongK3320230920.kmz",
+      "sourceUrl": "https://sdtv.vn/ban-do-phu-song/",
+      "sourceDate": "2023-09-20",
+      "verified": false,
+      "notes": null
+    },
+    {
+      "id": "thai-binh-hoang-dieu",
+      "name": "Trạm Phát Sóng Thái Bình",
+      "lat": 20.45918100000006,
+      "lon": 106.3546210000001,
+      "province": "hung-yen",
+      "addressOld": "Đài PTTH Thái Bình, Hoàng Diệu, thành phố Thái Bình, Thái Bình",
+      "muxes": [
+        {
+          "channel": 30,
+          "operator": "VTV",
+          "status": "active"
+        }
+      ],
+      "polarization": null,
+      "heightM": 125,
+      "erpKw": null,
+      "status": "active",
+      "source": "github.com/phuongnamthvl/giaGA k30.kmz",
+      "sourceUrl": "https://github.com/phuongnamthvl/giaGA",
+      "sourceDate": null,
+      "verified": false,
+      "notes": null
+    },
+    {
+      "id": "thai-nguyen-chu-van-tan",
+      "name": "Trạm Phát Sóng Thái Nguyên",
+      "lat": 21.60016900000005,
+      "lon": 105.8451590000001,
+      "province": "thai-nguyen",
+      "addressOld": "Đài PTTH Thái Nguyên, đồi Chu Văn Tấn, thành phố Thái Nguyên, Thái Nguyên",
+      "muxes": [
+        {
+          "channel": 30,
+          "operator": "VTV",
+          "status": "active"
+        }
+      ],
+      "polarization": null,
+      "heightM": 100,
+      "erpKw": null,
+      "status": "active",
+      "source": "github.com/phuongnamthvl/giaGA k30.kmz",
+      "sourceUrl": "https://github.com/phuongnamthvl/giaGA",
+      "sourceDate": null,
+      "verified": false,
+      "notes": null
+    },
+    {
+      "id": "thanh-hoa-quyet-thang",
+      "name": "Trạm Phát Sóng Thanh Hóa",
+      "lat": 19.80771400000003,
+      "lon": 105.7718840000001,
+      "province": "thanh-hoa",
+      "addressOld": "Đài PTTH Thanh Hoá, đồi Quyết Thắng, thành phố Thanh Hoá, Thanh Hóa",
+      "muxes": [
+        {
+          "channel": 29,
+          "operator": "VTV",
+          "status": "active"
+        }
+      ],
+      "polarization": null,
+      "heightM": 90,
+      "erpKw": null,
+      "status": "active",
+      "source": "github.com/phuongnamthvl/giaGA k30.kmz",
+      "sourceUrl": "https://github.com/phuongnamthvl/giaGA",
+      "sourceDate": null,
+      "verified": false,
+      "notes": null
+    },
+    {
+      "id": "tien-giang-my-tho",
+      "name": "Đài Phát Thanh TH Tiền Giang",
+      "lat": 10.352703,
+      "lon": 106.358471,
+      "province": "dong-thap",
+      "addressOld": "125 Lê Thị Hồng Gấm, Phường 4, Tp. Mỹ Tho",
+      "muxes": [
+        {
+          "channel": 33,
+          "operator": "SDTV",
+          "status": "active"
+        },
+        {
+          "channel": 34,
+          "operator": "SDTV",
+          "status": "active"
+        }
+      ],
+      "polarization": null,
+      "heightM": 110,
+      "erpKw": null,
+      "status": "active",
+      "source": "sdtv.vn 16TramPhatSongK3320230920.kmz",
+      "sourceUrl": "https://sdtv.vn/ban-do-phu-song/",
+      "sourceDate": "2023-09-20",
+      "verified": false,
+      "notes": null
+    },
+    {
+      "id": "tp-hcm-bo-tu-lenh",
+      "name": "Trạm TP. HCM",
+      "lat": 10.776489,
+      "lon": 106.675402,
+      "province": "tp-ho-chi-minh",
+      "addressOld": "Bộ Tư lệnh Thành phố Hồ Chí Minh. Địa chỉ: 291 Hẻm 285 Cách Mạng Tháng Tám, Phường 12, Quận 10, Thành phố Hồ Chí Minh.",
+      "muxes": [
+        {
+          "channel": 34,
+          "operator": "SDTV",
+          "status": "active"
+        }
+      ],
+      "polarization": null,
+      "heightM": 120,
+      "erpKw": null,
+      "status": "active",
+      "source": "sdtv.vn 19TramPhatSongK3420211202.kmz",
+      "sourceUrl": "https://sdtv.vn/ban-do-phu-song/",
+      "sourceDate": "2021-12-02",
+      "verified": false,
+      "notes": null
+    },
+    {
+      "id": "tp-hcm-dinh-tien-hoang",
+      "name": "Đài TH Thành Phố Hồ Chí Minh",
+      "lat": 10.78669527472451,
+      "lon": 106.7033061769008,
+      "province": "tp-ho-chi-minh",
+      "addressOld": "14 Đinh Tiên Hoàng, Quận 1, TpHCM",
+      "muxes": [
+        {
+          "channel": 33,
+          "operator": "SDTV",
+          "status": "active"
+        }
+      ],
+      "polarization": null,
+      "heightM": 220,
+      "erpKw": null,
+      "status": "active",
+      "source": "sdtv.vn 16TramPhatSongK3320230920.kmz",
+      "sourceUrl": "https://sdtv.vn/ban-do-phu-song/",
+      "sourceDate": "2023-09-20",
+      "verified": false,
+      "notes": null
+    },
+    {
+      "id": "tra-vinh-dai-ptth",
+      "name": "Đài PTTH Trà Vinh",
+      "lat": 9.95149722222222,
+      "lon": 106.3426583333333,
+      "province": "vinh-long",
+      "addressOld": "Số 18A, Lê Lợi, Phường 1, TP Trà Vinh, Trà Vinh",
+      "muxes": [
+        {
+          "channel": 34,
+          "operator": "SDTV",
+          "status": "active"
+        }
+      ],
+      "polarization": null,
+      "heightM": 140,
+      "erpKw": null,
+      "status": "active",
+      "source": "sdtv.vn 19TramPhatSongK3420211202.kmz",
+      "sourceUrl": "https://sdtv.vn/ban-do-phu-song/",
+      "sourceDate": "2021-12-02",
+      "verified": false,
+      "notes": null
+    },
+    {
+      "id": "vinh-long-dai-ptth",
+      "name": "Đài PTTH Vĩnh Long",
+      "lat": 10.24603055555556,
+      "lon": 105.9766083333333,
+      "province": "vinh-long",
+      "addressOld": "50 Phạm Thái Bường, TP Vĩnh Long, Vĩnh Long",
+      "muxes": [
+        {
+          "channel": 34,
+          "operator": "SDTV",
+          "status": "active"
+        }
+      ],
+      "polarization": null,
+      "heightM": 150,
+      "erpKw": null,
+      "status": "active",
+      "source": "sdtv.vn 19TramPhatSongK3420211202.kmz",
+      "sourceUrl": "https://sdtv.vn/ban-do-phu-song/",
+      "sourceDate": "2021-12-02",
+      "verified": false,
+      "notes": null
+    },
+    {
+      "id": "vinh-phuc-vnpt",
+      "name": "Trạm Phát Sóng Vĩnh Phúc",
+      "lat": 21.30461800000006,
+      "lon": 105.591957,
+      "province": "phu-tho",
+      "addressOld": "VNPT - Vĩnh Phúc, Chi nhánh tổng công ty dịch vụ Viễn Thông. Địa chỉ: Số 2 Kim Ngọc, Phường Ngô Quyền, TP Vĩnh Yên, Tỉnh Vĩnh Phúc.",
+      "muxes": [
+        {
+          "channel": 29,
+          "operator": "VTV",
+          "status": "active"
+        }
+      ],
+      "polarization": null,
+      "heightM": 55,
+      "erpKw": null,
+      "status": "active",
+      "source": "github.com/phuongnamthvl/giaGA k30.kmz",
+      "sourceUrl": "https://github.com/phuongnamthvl/giaGA",
+      "sourceDate": null,
+      "verified": false,
+      "notes": null
+    }
+  ]
+}

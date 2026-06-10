@@ -1,0 +1,57 @@
+name: Báo cáo trạm phát sóng
+description: Thêm trạm mới hoặc báo lỗi dữ liệu — không cần biết lập trình
+title: '[Trạm] '
+labels: [data]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Cảm ơn bạn đóng góp! Điền được càng nhiều càng tốt — để trống nếu không biết.
+  - type: dropdown
+    id: report-type
+    attributes:
+      label: Loại báo cáo
+      options:
+        - Trạm mới chưa có trên bản đồ
+        - Sai tọa độ / vị trí
+        - Trạm đã ngừng phát
+        - Sai kênh / tần số
+        - Khác
+    validations:
+      required: true
+  - type: input
+    id: tower-name
+    attributes:
+      label: Tên / vị trí trạm
+      placeholder: 'VD: Đài PTTH Gia Lai, Pleiku'
+    validations:
+      required: true
+  - type: input
+    id: coords
+    attributes:
+      label: Tọa độ (nếu biết)
+      description: Mở Google Maps, nhấn giữ (mobile) hoặc chuột phải (máy tính) vào vị trí trạm để lấy tọa độ
+      placeholder: 'VD: 13.9718, 108.0151'
+  - type: input
+    id: channels
+    attributes:
+      label: Kênh phát (số kênh UHF)
+      placeholder: 'VD: K26, K32'
+  - type: input
+    id: source
+    attributes:
+      label: Nguồn thông tin
+      description: Link bài báo, trang đài PTTH, hoặc "tự đo bằng đầu thu DVB-T2"
+      placeholder: 'VD: https://... hoặc đo thực tế ngày 15/6/2026'
+  - type: dropdown
+    id: reception
+    attributes:
+      label: Bạn đã bắt được sóng từ trạm này chưa?
+      options:
+        - Đã bắt được sóng, xem tốt
+        - Bắt được nhưng yếu
+        - Chưa thử
+  - type: textarea
+    id: notes
+    attributes:
+      label: Ghi chú thêm
